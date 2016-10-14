@@ -22,17 +22,6 @@ NIE
 
 */
 
-/* ROZWIĄZANIE
-
-    pisz "TAK" gdy:
-
-    - jest dodatnia
-    - ma więcej niż 2 dzielniki (reszta z dzielenia = 0)
-
-    - działanie: podziel n przez wszystkie liczby całkowite większe od 1, a mniejsze od n
-
-*/
-
 #include <iostream>
 
     using namespace std;
@@ -48,8 +37,6 @@ int main(){
     cin >> liczbaKolejek;
 
     // wartosc liczby to ilosc razy
-
-    // liczba-1 ponieważ nie potrzeba dzielic przez wartosc podanej liczby
 
     for(int i = 0; i < liczbaKolejek; i++){
 
